@@ -2,6 +2,9 @@ body {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,9,121,1) 35%, rgba(170,0,255,1) 100%);
 }
 
+.container {
+}
+
 .header {
   height: 30px;
   background-color: white;
@@ -9,28 +12,15 @@ body {
   box-shadow: 10px 10px 5px grey;
 }
 
-.container {
-  background-color: #ebebeb;
-  /* border-style: solid; */
-}
-/*
-.nav-link {
-  width: 25px;
-} */
-
-.nav-item {
-  display: flex;
-}
-
 .sidebar {
   background-color: #212529;
-  position: absolute;
-  height: 100%;
-  width: 200px;
-  /* border-radius: 25px; */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
-.nav .li {
-  width: 80px;
-  list-style-image: url('/node_modules/bootstrap-icons/icons/alarm.svg');
+.content {
+  background-color: #ebebeb;
+  height: 100vh;
+  padding: 20px;
 }
